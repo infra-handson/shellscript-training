@@ -2,10 +2,10 @@
 
 ## 事前実行
 
-- 以下の作業は全て/training/shellscript配下にて実施します。対象フォルダに移動します。
+- 以下の作業は全て`~/shellscript-training/exercise`配下にて実施します。対象ディレクトリに移動します。
 
 ```bash
-cd /training/shellscript
+cd ~/shellscript-training/exercise
 ```
 
 ## 講義資料p.7
@@ -18,7 +18,7 @@ echo "Hello World"
 
 ## 講義資料p.13
 
-- manコマンドでechoコマンドの仕様を確認してみましょう。
+- `man`コマンドで`echo`コマンドの仕様を確認してみましょう。
 
 ```bash
 man echo
@@ -32,7 +32,7 @@ man echo
 whoami
 ```
 
-- /etc/passwdファイルを確認して、上記ユーザのログインシェルの種別を確認しましょう。
+- `/etc/passwd`ファイルを確認して、上記ユーザのログインシェルの種別を確認しましょう。
 
 ```bash
 cat /etc/passwd
@@ -46,8 +46,8 @@ echo $SHELL
 
 ## 講義資料p.18
 
-- ホームディレクトリ直下の.bashrcファイルの中身を見てみましょう。
-    - ※講義資料中に記載の.bash_profileは確認環境上には存在しないので注意
+- ホームディレクトリ直下の`.bashrc`ファイルの中身を見てみましょう。
+    - ※講義資料中に記載の`.bash_profile`は確認環境上には存在しないので注意
 
 ```bash
 cat ~/.bashrc
@@ -57,7 +57,7 @@ cat ~/.bashrc
 
 ## 講義資料p.26
 
-- helpコマンドを実行して組み込みコマンドにどのようなものがあるかを見てみましょう。
+- `help`コマンドを実行して組み込みコマンドにどのようなものがあるかを見てみましょう。
 
 ```bash
 help
@@ -65,7 +65,7 @@ help
 
 ## 講義資料p.27
 
-- coreutilsに含まれるコマンドにどのようなものがあるかを見てみましょう。
+- `coreutils`に含まれるコマンドにどのようなものがあるかを見てみましょう。
 
 ```bash
 rpm -ql coreutils | grep bin
@@ -73,7 +73,7 @@ rpm -ql coreutils | grep bin
 
 ## 講義資料p.28
 
-- /training/shellscriptフォルダ直下に配置されているsample.shを実行してみましょう。
+- `~/shellscript-training/exercise`ディレクトリ直下に配置されている`sample.sh`を実行してみましょう。
     - 実行方法1 bashの引数として実行
     ```bash
     bash sample.sh
@@ -89,7 +89,7 @@ rpm -ql coreutils | grep bin
 
 ## 講義資料p.31
 
-- /training/shellscript/sample.shの実行権限を確認してみましょう。
+- `sample.sh`の実行権限を確認してみましょう。
 
 ```bash
 ls -l sample.sh
@@ -115,7 +115,6 @@ chmod a+x sample.sh
     command ./sample.sh
     ```
 
-
 ## 講義資料p.42
 
 - シェル変数を定義してみましょう。
@@ -124,7 +123,7 @@ chmod a+x sample.sh
 VAR1="test"
 ```
 
-- スクリプトの中でシェル変数をechoした結果を見てみましょう。
+- スクリプトの中でシェル変数を`echo`した結果を見てみましょう。
 
 ```bash
 cat ./var_echo.sh
@@ -146,19 +145,19 @@ bash ./var_echo.sh
 
 ## 講義資料p.48
 
-- コマンドの結果をgrepでフィルタしてみましょう。
+- コマンドの結果を`grep`でフィルタしてみましょう。
 
 ```bash
-ls -l /training/shellscript
+ls -l ~/shellscript-training/exercise
 ```
 
 ```bash
-ls -l /training/shellscript | grep sample
+ls -l ~/shellscript-training/exercise | grep sample
 ```
 
 ## 講義資料p.49
 
-- dateコマンドの結果を変数に格納してみましょう。
+- `date`コマンドの結果を変数に格納してみましょう。
 
 ```bash
 VAR=$(date)
@@ -172,7 +171,7 @@ echo $VAR
 
 ## 講義資料p.50
 
-- dateコマンドの結果をファイルに書き出してみましょう。
+- `date`コマンドの結果をファイルに書き出してみましょう。
 
 ```bash
 date > output.log
@@ -210,7 +209,7 @@ cat output.log
 bash ./stdout_stderr.sh
 ```
 
-- 標準エラー出力をerror.logに出力してみましょう。
+- 標準エラー出力を`error.log`に出力してみましょう。
 
 ```bash
 bash ./stdout_stderr.sh 2> error.log
@@ -220,7 +219,7 @@ bash ./stdout_stderr.sh 2> error.log
 cat error.log
 ```
 
-- 標準出力と標準エラー出力両方をoutput.logに出力してみましょう。
+- 標準出力と標準エラー出力両方を`output.log`に出力してみましょう。
 
 ```bash
 bash ./stdout_stderr.sh > output.log 2>&1
