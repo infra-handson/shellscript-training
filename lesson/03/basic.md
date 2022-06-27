@@ -144,4 +144,4 @@ cd ~/shellscript-training/lesson/02
 
 ---
 
-## [次の演習(演習2)](./演習2.md)
+[演習-04のページへ](../04/basic.md)
