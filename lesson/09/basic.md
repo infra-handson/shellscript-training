@@ -70,3 +70,14 @@ fi
 
 </div>
 </details>
+
+以上。
+
+## Advanced
+
+- 時間の余裕があれば以下の情報も確認してみましょう。
+- [Advanced](./advanced.md)
+
+---
+
+[演習-10のページへ](../10/basic.md)
