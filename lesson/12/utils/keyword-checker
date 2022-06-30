@@ -1,0 +1,41 @@
+#!/bin/bash
+
+#############
+# keyword-checker
+#
+# input:
+#   1. filepath
+#   2. keyword
+# output:
+#   hit_rows & hit_count number
+#   e.g.: "hit_rows": 12 "hit_count": 18
+#############
+
+function usage() {
+  echo "Usage: keyword-checker filepath keyword"
+  echo "Example: keyword-checker ./system.log ERROR"
+  exit 1
+}
+
+function check_params() {
+  if [ $# != 2 ]; then
+    echo "引数の数が誤っています。"
+    usage
+  fi
+  if [ ! -f $1 ]; then
+    echo "指定ファイルが存在しません。"
+    usage
+  fi
+}
+
+function analyze_file() {
+  FILEPATH=$1
+  KEYWORD=$2
+  hit_count=`grep -o ${KEYWORD} ${FILEPATH} | wc -l`
+  hit_rows=`grep ${KEYWORD} ${FILEPATH} | wc -l`
+  sleep 10
+  echo "hit_rows: ${hit_rows} hit_count: ${hit_count}"
+}
+
+check_params "$@"
+analyze_file $1 $2

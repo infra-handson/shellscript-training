@@ -1,0 +1,11 @@
+ERROR aaa bbb ccc
+ddd eee fff ERROR ERROR ERROR
+ddd eee fff WARNING
+WARNING ggg hhh iii
+aaa bbb ccc
+
+ERROR
+WARNING
+INFO
+TEST
+ERROR
