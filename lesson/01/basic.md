@@ -27,7 +27,7 @@ ls -la ./
 <div>
 
 ```bash
-[root@ip-10-0-21-215 ~/shellscript-training/lesson/01]$ ls -la
+[root@ip-xx-xx-xx-xx ~/shellscript-training/lesson/01]$ ls -la
 total 8
 drwxr-xr-x 3 root root   60 Jun 27 19:21 .
 drwxr-xr-x 5 root root   74 Jun 27 19:16 ..

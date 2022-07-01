@@ -34,7 +34,7 @@ cd ~/shellscript-training/lesson/10
     - whileの後ろの条件式が真になっている間、繰り返し処理を実行する
 
 </div>
-</summary>
+</details>
 
 ### 回答・解説
 

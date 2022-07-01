@@ -35,6 +35,9 @@ su -l root
 su -l ec2-user
 ```
 
+</div>
+</details>
+
 以上。
 
 ---

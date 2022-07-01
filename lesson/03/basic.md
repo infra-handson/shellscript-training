@@ -20,7 +20,11 @@ cd ~/shellscript-training/lesson/03
 
 - 開発者は、以下の内容を実現するシェルスクリプト(スクリプト名はlesson_03.sh)を`artifact`ディレクトリに作成します。
     - スクリプトを実行後、"Hello World"という文字列を出力して終了。
-- レビュアーは、スクリプトを実行し、正しく結果が出力されるかを確認します。
+- レビュアーは、`bash`コマンドを用いてスクリプトを実行し、正しく結果が出力されるかを確認します。
+
+```bash
+bash ./artifacts/lesson_03.sh
+```
 
 <details>
 <summary>ヒント</summary>
