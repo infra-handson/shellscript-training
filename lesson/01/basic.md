@@ -33,7 +33,7 @@ drwxr-xr-x 3 root root   60 Jun 27 19:21 .
 drwxr-xr-x 5 root root   74 Jun 27 19:16 ..
 -rw-r--r-- 1 root root    0 Jun 27 19:21 advanced.md
 -rw-r--r-- 1 root root 4893 Jun 27 19:18 basic.md
-drwxr-xr-x 2 root root   21 Jun 27 19:19 share_files
+drwxr-xr-x 2 root root   21 Jun 27 19:19 files
 ```
 </div>
 </details>
@@ -58,22 +58,22 @@ man echo
 ## Step3
 
 - 以下のコマンドを実行して、ファイルの共有ができているかを確認してみましょう。
-- share_filesフォルダ内に<自分の社員番号>.txtという名前のファイルを作成します。
+- filesフォルダ内に<自分の社員番号>.txtという名前のファイルを作成します。
 - ファイルの作成にはtouchコマンド等を用います。
 
 ```bash
-touch ./share_files/tieXXXXXX.txt
+touch ./files/tieXXXXXX.txt
 ```
 
-- チームメンバー全員が上記完了後、上記フォルダ内のファイル一覧を確認します。
+- 上記フォルダ内のファイル一覧を確認します。
 
 ```bash
-ls -la ./share_files/
+ls -la ./files/
 ```
 
-- チームメンバーの各ファイルが表示されていることを確認します。
+- ファイルが表示されていることを確認します。
 - また、ブラウザの左のエクスプローラー上でも該当のファイルが見れることを確認します。
-- ファイルを編集し、編集内容も互いに確認できるかをチェックします。
+- ファイルを編集し、編集内容も確認できるかをチェックします。
 
 以上。
 
