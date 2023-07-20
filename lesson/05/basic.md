@@ -29,10 +29,10 @@ cd ~/shellscript-training/lesson/05
 5
 ```
 
-### 回答・解説
+### 解答・解説
 
 <details>
-<summary>回答・解説</summary>
+<summary>解答・解説</summary>
 <div>
 
 - 以下の内容でlesson_05_1.shを作成します。
@@ -59,10 +59,10 @@ done
 - スクリプトを実行し、想定通り3秒ごとに出力されるかを確認します。
     - 停止する際はターミナル上で`ctrl + c`とキーボードで押して停止します。
 
-### 回答・解説
+### 解答・解説
 
 <details>
-<summary>回答・解説</summary>
+<summary>解答・解説</summary>
 <div>
 
 - 以下の内容でlesson_05_2.shを作成します。
@@ -108,10 +108,10 @@ done
 </div>
 </details>
 
-### 回答・解説
+### 解答・解説
 
 <details>
-<summary>回答・解説</summary>
+<summary>解答・解説</summary>
 <div>
 
 - 以下の内容でlesson_05_3.shを作成します。

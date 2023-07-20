@@ -29,10 +29,10 @@ cd ~/shellscript-training/lesson/07
 
 - 上記仕様に合わせて各計算の結果が正しいかどうかを確認します。
 
-### 回答・解説
+### 解答・解説
 
 <details>
-<summary>回答・解説</summary>
+<summary>解答・解説</summary>
 <div>
 
 - 以下の内容でlesson_07_1.shを作成します。
@@ -72,10 +72,10 @@ echo $VAR1 / $VAR2 = $(($VAR1 / $VAR2))
 </div>
 </details>
 
-### 回答・解説
+### 解答・解説
 
 <details>
-<summary>回答・解説</summary>
+<summary>解答・解説</summary>
 <div>
 
 - 以下の内容でlesson_07_2.shを作成します。

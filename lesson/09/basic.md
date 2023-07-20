@@ -41,10 +41,10 @@ cd ~/shellscript-training/lesson/09
 </details>
 
 
-### 回答・解説
+### 解答・解説
 
 <details>
-<summary>回答・解説</summary>
+<summary>解答・解説</summary>
 <div>
 
 - 以下の内容でlesson_09_1.shを作成します。

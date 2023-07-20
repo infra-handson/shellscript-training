@@ -53,10 +53,10 @@ cd ~/shellscript-training/lesson/08
 </div>
 </details>
 
-### 回答・解説
+### 解答・解説
 
 <details>
-<summary>回答・解説</summary>
+<summary>解答・解説</summary>
 <div>
 
 - 以下の内容でlesson_08_1.shを作成します。
@@ -89,10 +89,10 @@ fi
     - 数字でない場合…"引数指定不備"とターミナル上に出力して処理を終了する。
 - 動作確認の条件を整理し、動作確認を実施します。
 
-### 回答・解説
+### 解答・解説
 
 <details>
-<summary>回答・解説</summary>
+<summary>解答・解説</summary>
 <div>
 
 - 以下の内容でlesson_08_2.shを作成します。

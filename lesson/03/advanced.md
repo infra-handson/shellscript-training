@@ -7,7 +7,7 @@
 - 先ほど作成したlesson_03.shのファイルを`/tmp`以下に複製して実行できるようにします。
 
 <details>
-<summary>回答例</summary>
+<summary>解答例</summary>
 <div>
 
 ```bash

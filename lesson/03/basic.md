@@ -36,10 +36,10 @@ bash ./artifacts/lesson_03.sh
 </div>
 </details>
 
-### 回答・解説
+### 解答・解説
 
 <details>
-<summary>回答・解説</summary>
+<summary>解答・解説</summary>
 <div>
 
 - 以下の内容でスクリプトを作成します。
@@ -76,10 +76,10 @@ bash ./artifacts/lesson_03.sh
 </div>
 </details>
 
-### 回答・解説
+### 解答・解説
 
 <details>
-<summary>回答・解説</summary>
+<summary>解答・解説</summary>
 <div>
 
 - 以下のコマンドで権限を確認します。
@@ -116,10 +116,10 @@ ls -l ./artifacts/lesson_03.sh
 cd ~/shellscript-training/lesson/02
 ```
 
-### 回答・解説
+### 解答・解説
 
 <details>
-<summary>回答・解説</summary>
+<summary>解答・解説</summary>
 <div>
 
 - 以下のコマンドで別のディレクトリにあるファイルを指定して実行します。

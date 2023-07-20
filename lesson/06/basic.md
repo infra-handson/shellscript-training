@@ -33,10 +33,10 @@ fi
     - hoge.txtが存在しない状態で実行し、error.txtにエラーメッセージが記載されていること。また、result.txtにNGが記載されていること。
     - hoge.txtを`artifacts`配下に作成後に実行し、error.txtにメッセージが追記されていないこと。また、result.txtにOKが追記されていること。
 
-### 回答・解説
+### 解答・解説
 
 <details>
-<summary>回答・解説</summary>
+<summary>解答・解説</summary>
 <div>
 
 - 以下の内容でlesson_06_1.shを作成します。
@@ -79,10 +79,10 @@ fi
 </div>
 </details>
 
-### 回答・解説
+### 解答・解説
 
 <details>
-<summary>回答・解説</summary>
+<summary>解答・解説</summary>
 <div>
 
 - 以下の内容でlesson_06_2.shを作成します。

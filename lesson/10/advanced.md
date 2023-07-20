@@ -26,7 +26,7 @@ space test created_file5.txt
 </details>
 
 <details>
-<summary>回答例</summary>
+<summary>解答例</summary>
 <div>
 
 - lesson_10_a1.shを以下の内容で作成します。
