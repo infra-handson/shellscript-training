@@ -18,7 +18,7 @@ cd ~/shellscript-training/lesson/11
 ```
 
 - 以下の処理を行うシェルスクリプトのファイル(lesson_11_1.sh)を`artifacts`に作成します。  
-   - 繰り返しループを書いて、5秒ごとにloop.txtに"loop"と追記出力するコードを実装します。
+   - 繰り返しループを書いて、6秒ごとにloop.txtに"loop"と追記出力するコードを実装します。なお繰り返しの回数は30回とします。
 - 該当のスクリプトをバックグラウンドで実行させます。
     - 実行後、バックグラウンドで実行されていることおよびジョブ番号を確認します。
 
@@ -33,10 +33,10 @@ cd ~/shellscript-training/lesson/11
 ```bash
 #!/bin/bash
 DIRECTORY=~/shellscript-training/lesson/11/artifacts
-while true
+for ((i=0; i<30; i++))
 do
   echo "loop" >> ${DIRECTORY}/loop.txt
-  sleep 5
+  sleep 6
 done
 ```
 
