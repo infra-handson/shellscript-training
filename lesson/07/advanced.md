@@ -6,7 +6,7 @@
     - 「"6" は2または3の倍数です。」"6"の部分は2もしくは3の倍数となっている数値が展開されることとします。
 
 <details>
-<summary>回答例</summary>
+<summary>解答例</summary>
 <div>
 
 ```bash

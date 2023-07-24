@@ -8,7 +8,7 @@
     1. 1,2の両方が満たす場合のみ、'OK'と表示されること。その他は'NG'と表示されるよう実装しましょう。
 
 <details>
-<summary>回答例</summary>
+<summary>解答例</summary>
 <div>
 
 ```bash

@@ -18,7 +18,7 @@
 ```
 
 <details>
-<summary>回答例</summary>
+<summary>解答例</summary>
 <div>
 
 ```bash

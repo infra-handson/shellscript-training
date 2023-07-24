@@ -11,7 +11,7 @@
 - この正規表現を用いて数値であるかどうかをチェックして評価できるように書き換えましょう。
 
 <details>
-<summary>回答例</summary>
+<summary>解答例</summary>
 <div>
 
 ```bash
