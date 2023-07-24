@@ -57,12 +57,11 @@ man echo
 
 ## Step3
 
-- 以下のコマンドを実行して、ファイルの共有ができているかを確認してみましょう。
-- filesフォルダ内に<自分の社員番号>.txtという名前のファイルを作成します。
+- filesフォルダ内にsample.txtという名前のファイルを作成します。
 - ファイルの作成にはtouchコマンド等を用います。
 
 ```bash
-touch ./files/tieXXXXXX.txt
+touch ./files/sample.txt
 ```
 
 - 上記フォルダ内のファイル一覧を確認します。
